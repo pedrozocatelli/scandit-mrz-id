@@ -28,6 +28,8 @@ const camera = ref(null);
 
 const supportedDocuments = ref([
   IdDocumentType.DLVIZ,
+  IdDocumentType.DLVIZ,
+  IdDocumentType.AAMVABarcode,
   IdDocumentType.IdCardVIZ,
   IdDocumentType.PassportMRZ,
   IdDocumentType.USUSIdBarcode,
